@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T15:27:36.911Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="jsCwGCHJC6Ut4sxc3Dv2" version="20.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-13T15:42:41.345Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="pRZw71eSWmAf5ug7PpqV" version="20.6.2" type="github" pages="2">
   <diagram id="tD1SHnHAwm1Vo4-uI_2h" name="Page-1">
     <mxGraphModel dx="2062" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,9 +6,6 @@
         <mxCell id="1" parent="0" />
         <mxCell id="IlkH0OPReSVDijkY-aTf-1" value="express food" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="70" width="520" height="650" as="geometry" />
-        </mxCell>
-        <mxCell id="IlkH0OPReSVDijkY-aTf-2" value="Chef" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="260" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IlkH0OPReSVDijkY-aTf-3" value="AJOUT D&#39;UN PLAT DU JOUR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="60" y="15" width="180" height="30" as="geometry" />
@@ -54,7 +51,7 @@
             <mxPoint x="880" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IlkH0OPReSVDijkY-aTf-19" value="&lt;h1&gt;Ajout d&#39;un plat du jour&lt;/h1&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;Express food rentre en contact avec un chef pour qu&#39;il puisse préparer un (ou plusieur ) plat,&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp;un chef peut préparer deux types de plat, un dessert ou un plat du jour salé.&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;Ces plats sont ensuite distribué aux livreurs.&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;Enfin un client pourra commander un ou plusieurs de ses plats.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="IlkH0OPReSVDijkY-aTf-19" value="&lt;h1&gt;Ajout d&#39;un plat du jour&lt;/h1&gt;&lt;div&gt;Le client ajoute à sa commande un certain nombre d&#39;un plat du jour, puis il confirme l&#39;ajout.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Il peut modifier la quantité de plat du jour ajouter,.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="790" width="800" height="280" as="geometry" />
         </mxCell>
         <mxCell id="IlkH0OPReSVDijkY-aTf-22" value="livreur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" parent="1" vertex="1">
