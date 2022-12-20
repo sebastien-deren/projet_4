@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-20T08:05:41.349Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="XbOVCYfXnm9366cZcg36" version="20.7.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-12-20T08:07:08.568Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="eA5xDYoES0LM6fr6ln0M" version="20.7.4" type="github" pages="4">
   <diagram id="i2iANbK01hYDNkAA648U" name="Use case">
     <mxGraphModel dx="2074" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,6 +242,112 @@
             <mxPoint x="70" y="260" as="sourcePoint" />
             <mxPoint x="120" y="210" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yuczz4x9PpKyR1N9XHPR" name="Livraison de commande">
+    <mxGraphModel dx="2074" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-1" value="Food Express" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="30" width="560" height="561" as="geometry" />
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-2" value="Valider la commande" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="LnqLCXmZ8k50j1TZeZXA-1">
+          <mxGeometry x="60" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-3" value="Vérifier l&#39;estimated time of arrival" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="LnqLCXmZ8k50j1TZeZXA-1">
+          <mxGeometry x="60" y="291" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-4" value="Valider la livraison" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="LnqLCXmZ8k50j1TZeZXA-1">
+          <mxGeometry x="50" y="451" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-5" value="Vérifier le paiement" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="LnqLCXmZ8k50j1TZeZXA-1">
+          <mxGeometry x="235" y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-6" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;fontSize=17;dashed=1;" edge="1" parent="LnqLCXmZ8k50j1TZeZXA-1" source="LnqLCXmZ8k50j1TZeZXA-5" target="LnqLCXmZ8k50j1TZeZXA-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="261" as="sourcePoint" />
+            <mxPoint x="350" y="211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-7" value="Atribuer un livreur" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="LnqLCXmZ8k50j1TZeZXA-1">
+          <mxGeometry x="365" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-8" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;fontSize=17;dashed=1;" edge="1" parent="LnqLCXmZ8k50j1TZeZXA-1" source="LnqLCXmZ8k50j1TZeZXA-7" target="LnqLCXmZ8k50j1TZeZXA-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="290" as="sourcePoint" />
+            <mxPoint x="295" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-9" value="obtenir la position du livreur" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="LnqLCXmZ8k50j1TZeZXA-1">
+          <mxGeometry x="365" y="291" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-10" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;fontSize=17;dashed=1;" edge="1" parent="LnqLCXmZ8k50j1TZeZXA-1" source="LnqLCXmZ8k50j1TZeZXA-9" target="LnqLCXmZ8k50j1TZeZXA-3">
+          <mxGeometry x="-0.1515" y="24" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="410" as="sourcePoint" />
+            <mxPoint x="325" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-11" value="notifier d&#39;une livraison non conforme" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="LnqLCXmZ8k50j1TZeZXA-1">
+          <mxGeometry x="315" y="451" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-12" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=17;" edge="1" parent="LnqLCXmZ8k50j1TZeZXA-1" source="LnqLCXmZ8k50j1TZeZXA-4" target="LnqLCXmZ8k50j1TZeZXA-11">
+          <mxGeometry x="0.04" y="16" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="450" as="sourcePoint" />
+            <mxPoint x="245" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-13" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LnqLCXmZ8k50j1TZeZXA-13" target="LnqLCXmZ8k50j1TZeZXA-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="630" as="sourcePoint" />
+            <mxPoint x="380" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" edge="1" parent="1" target="LnqLCXmZ8k50j1TZeZXA-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="270" as="sourcePoint" />
+            <mxPoint x="270" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" edge="1" parent="1" target="LnqLCXmZ8k50j1TZeZXA-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="270" as="sourcePoint" />
+            <mxPoint x="230" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-17" value="Bank" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-18" value="Livreur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="980" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LnqLCXmZ8k50j1TZeZXA-5" target="LnqLCXmZ8k50j1TZeZXA-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="210" as="sourcePoint" />
+            <mxPoint x="90" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LnqLCXmZ8k50j1TZeZXA-7" target="LnqLCXmZ8k50j1TZeZXA-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="360" as="sourcePoint" />
+            <mxPoint x="880" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" edge="1" parent="1" source="LnqLCXmZ8k50j1TZeZXA-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="350" as="sourcePoint" />
+            <mxPoint x="980" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-22" value="&lt;h1&gt;Livraison de commande&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Lorsqu&#39;une commande est commander un livreur est désigner pour la livrer.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Le livreur recevra le contenu de la commande ainsi que l&#39;adresse du client.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Une fois arrivé a destination le livreur donnera la commande au client et validera la bonne remise de la commande.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Le client pourra prévenir food express si il a eu le moindre problème lors de la livraison de la commande.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="670" width="1090" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
