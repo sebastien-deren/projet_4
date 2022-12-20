@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-20T17:18:29.452Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Tyhsay53FyK3A6z2R6Ne" version="20.7.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-12-20T17:21:02.717Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="SvlUqd-0sDLalmRZMwyh" version="20.7.4" type="github" pages="4">
   <diagram id="i2iANbK01hYDNkAA648U" name="Main Use case">
     <mxGraphModel dx="2074" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -308,10 +308,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LnqLCXmZ8k50j1TZeZXA-17" value="Bank" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="160" y="70" width="30" height="60" as="geometry" />
+          <mxGeometry x="970" y="80" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LnqLCXmZ8k50j1TZeZXA-18" value="Livreur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="980" y="80" width="30" height="60" as="geometry" />
+          <mxGeometry x="980" y="210" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LnqLCXmZ8k50j1TZeZXA-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LnqLCXmZ8k50j1TZeZXA-5" target="LnqLCXmZ8k50j1TZeZXA-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -325,7 +325,7 @@
             <mxPoint x="880" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LnqLCXmZ8k50j1TZeZXA-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" edge="1" parent="1" source="LnqLCXmZ8k50j1TZeZXA-9">
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LnqLCXmZ8k50j1TZeZXA-9" target="LnqLCXmZ8k50j1TZeZXA-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1050" y="350" as="sourcePoint" />
             <mxPoint x="980" y="100" as="targetPoint" />
@@ -333,6 +333,12 @@
         </mxCell>
         <mxCell id="LnqLCXmZ8k50j1TZeZXA-22" value="&lt;h1&gt;Livraison de commande&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Lorsqu&#39;une commande est commander un livreur est désigner pour la livrer.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Le livreur recevra le contenu de la commande ainsi que l&#39;adresse du client.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Une fois arrivé a destination le livreur donnera la commande au client et validera la bonne remise de la commande.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Le client pourra prévenir food express si il a eu le moindre problème lors de la livraison de la commande.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="670" width="1090" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="YURC8H3YndRgpxWFo67Q-1" value="Les diagrammes ne sont pas lier entre eux penser a toujours rajouter les use case nécessaire" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="410" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YURC8H3YndRgpxWFo67Q-2" value="Changer les fleches des includes et extends" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="230" width="130" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
