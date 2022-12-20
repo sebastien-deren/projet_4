@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-12-20T08:07:08.568Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="eA5xDYoES0LM6fr6ln0M" version="20.7.4" type="github" pages="4">
-  <diagram id="i2iANbK01hYDNkAA648U" name="Use case">
+<mxfile host="app.diagrams.net" modified="2022-12-20T08:07:44.512Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="gmIbzD7lNYGo42OnC-vN" version="20.7.4" type="github" pages="4">
+  <diagram id="i2iANbK01hYDNkAA648U" name="Main Use case">
     <mxGraphModel dx="2074" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -108,6 +108,59 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="Vbr8HSNDoBKroeNeDESG" name="Creer une commande">
+    <mxGraphModel dx="2074" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pweK3UDJ_hugtWgN-rMh-1" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pweK3UDJ_hugtWgN-rMh-2" value="expressFood" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="490" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="pweK3UDJ_hugtWgN-rMh-3" value="se connecter" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="pweK3UDJ_hugtWgN-rMh-2">
+          <mxGeometry x="50" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pweK3UDJ_hugtWgN-rMh-4" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="pweK3UDJ_hugtWgN-rMh-2" source="pweK3UDJ_hugtWgN-rMh-6" target="pweK3UDJ_hugtWgN-rMh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pweK3UDJ_hugtWgN-rMh-5" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="pweK3UDJ_hugtWgN-rMh-2" source="pweK3UDJ_hugtWgN-rMh-6" target="pweK3UDJ_hugtWgN-rMh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pweK3UDJ_hugtWgN-rMh-6" value="Créer une commande" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="pweK3UDJ_hugtWgN-rMh-2">
+          <mxGeometry x="50" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pweK3UDJ_hugtWgN-rMh-7" value="Changer d&#39;adresse de livraison" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="pweK3UDJ_hugtWgN-rMh-2">
+          <mxGeometry x="50" y="460" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pweK3UDJ_hugtWgN-rMh-8" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="pweK3UDJ_hugtWgN-rMh-2" source="pweK3UDJ_hugtWgN-rMh-3" target="pweK3UDJ_hugtWgN-rMh-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="200" as="sourcePoint" />
+            <mxPoint x="290" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pweK3UDJ_hugtWgN-rMh-9" value="reprendre une commande en cours" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="pweK3UDJ_hugtWgN-rMh-2">
+          <mxGeometry x="240" y="460" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pweK3UDJ_hugtWgN-rMh-11" value="Choisir l&#39;adresse de livraison" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="pweK3UDJ_hugtWgN-rMh-2">
+          <mxGeometry x="230" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pweK3UDJ_hugtWgN-rMh-12" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="pweK3UDJ_hugtWgN-rMh-2" source="pweK3UDJ_hugtWgN-rMh-11" target="pweK3UDJ_hugtWgN-rMh-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="250" as="sourcePoint" />
+            <mxPoint x="400" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pweK3UDJ_hugtWgN-rMh-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pweK3UDJ_hugtWgN-rMh-1" target="pweK3UDJ_hugtWgN-rMh-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="260" as="sourcePoint" />
+            <mxPoint x="120" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="u4Pun7L2qdL3AVSLdMft" name="ajouter plat du jour">
     <mxGraphModel dx="2074" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -189,59 +242,6 @@
         </mxCell>
         <mxCell id="M16fj-CEml5ffAeNcaUB-17" value="&lt;h1 style=&quot;font-size: 17px;&quot;&gt;Ajout d&#39;un plat du jour&lt;/h1&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;Le client ajoute à sa commande un certain nombre d&#39;un plat du jour, puis il confirme l&#39;ajout.&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;Il peut modifier la quantité de plat du jour, dans son panier.&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;Le client peut voir tout les plats du jour qui ont été disponible , les plat du jour disponible seront mis en valeur, il pourra éventuellement voir les plats du jour qu&#39;il a déjà commander.&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="110" y="780" width="800" height="280" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="Vbr8HSNDoBKroeNeDESG" name="Creer une commande">
-    <mxGraphModel dx="2074" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="pweK3UDJ_hugtWgN-rMh-1" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="300" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="pweK3UDJ_hugtWgN-rMh-2" value="expressFood" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="40" width="490" height="760" as="geometry" />
-        </mxCell>
-        <mxCell id="pweK3UDJ_hugtWgN-rMh-3" value="se connecter" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="pweK3UDJ_hugtWgN-rMh-2">
-          <mxGeometry x="50" y="80" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pweK3UDJ_hugtWgN-rMh-4" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="pweK3UDJ_hugtWgN-rMh-2" source="pweK3UDJ_hugtWgN-rMh-6" target="pweK3UDJ_hugtWgN-rMh-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pweK3UDJ_hugtWgN-rMh-5" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="pweK3UDJ_hugtWgN-rMh-2" source="pweK3UDJ_hugtWgN-rMh-6" target="pweK3UDJ_hugtWgN-rMh-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pweK3UDJ_hugtWgN-rMh-6" value="Créer une commande" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="pweK3UDJ_hugtWgN-rMh-2">
-          <mxGeometry x="50" y="270" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pweK3UDJ_hugtWgN-rMh-7" value="Changer d&#39;adresse de livraison" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="pweK3UDJ_hugtWgN-rMh-2">
-          <mxGeometry x="50" y="460" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pweK3UDJ_hugtWgN-rMh-8" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="pweK3UDJ_hugtWgN-rMh-2" source="pweK3UDJ_hugtWgN-rMh-3" target="pweK3UDJ_hugtWgN-rMh-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="200" as="sourcePoint" />
-            <mxPoint x="290" y="150" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pweK3UDJ_hugtWgN-rMh-9" value="reprendre une commande en cours" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="pweK3UDJ_hugtWgN-rMh-2">
-          <mxGeometry x="240" y="460" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pweK3UDJ_hugtWgN-rMh-11" value="Choisir l&#39;adresse de livraison" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="pweK3UDJ_hugtWgN-rMh-2">
-          <mxGeometry x="230" y="80" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pweK3UDJ_hugtWgN-rMh-12" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="pweK3UDJ_hugtWgN-rMh-2" source="pweK3UDJ_hugtWgN-rMh-11" target="pweK3UDJ_hugtWgN-rMh-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="250" as="sourcePoint" />
-            <mxPoint x="400" y="200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pweK3UDJ_hugtWgN-rMh-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pweK3UDJ_hugtWgN-rMh-1" target="pweK3UDJ_hugtWgN-rMh-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="70" y="260" as="sourcePoint" />
-            <mxPoint x="120" y="210" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
