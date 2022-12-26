@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-26T17:52:04.966Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="xzp2Ig-7BezBWFNU84tu" version="20.7.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-12-26T17:52:52.496Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="CncNkqNfmNkWtBjKFR8t" version="20.7.4" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="entier">
     <mxGraphModel dx="2074" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -50,18 +50,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kE-UTcSqWCiqaB6s_LS_" name="créer commande">
-    <mxGraphModel dx="3243" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ruzmpmge77XhKSY6amry-13" value="OPT" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="380" width="838.5" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-1" value="ALT" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="210" width="1370" height="990" as="geometry" />
-        </mxCell>
         <mxCell id="RajAqQyUGsAF3_RqsOgA-3" value=":User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="529" y="40" width="100" height="1120" as="geometry" />
+          <mxGeometry x="529" y="40" width="100" height="920" as="geometry" />
         </mxCell>
         <mxCell id="RajAqQyUGsAF3_RqsOgA-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=default;rotatable=0;snapToPoint=0;" parent="RajAqQyUGsAF3_RqsOgA-3" vertex="1">
           <mxGeometry x="45" y="90" width="10" height="60" as="geometry" />
@@ -112,10 +109,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CBQdQQmrXeCsM5Ka3cLZ-1" value=":client" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="119" y="40" width="20" height="1150" as="geometry" />
+          <mxGeometry x="119" y="40" width="20" height="920" as="geometry" />
         </mxCell>
         <mxCell id="_Wov2WdpDqVUPnZRLDTh-1" value=":interface" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="279" y="40" width="155" height="1160" as="geometry" />
+          <mxGeometry x="279" y="40" width="155" height="920" as="geometry" />
         </mxCell>
         <mxCell id="RajAqQyUGsAF3_RqsOgA-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=default;" parent="_Wov2WdpDqVUPnZRLDTh-1" vertex="1">
           <mxGeometry x="72.5" y="70" width="10" height="90" as="geometry" />
@@ -156,7 +153,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1QbY8b8L3oi4g8jn2y3C-6" value=":adresse" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="769" y="40" width="100" height="1120" as="geometry" />
+          <mxGeometry x="769" y="40" width="100" height="920" as="geometry" />
         </mxCell>
         <mxCell id="1QbY8b8L3oi4g8jn2y3C-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1QbY8b8L3oi4g8jn2y3C-6" vertex="1">
           <mxGeometry x="43.5" y="652" width="10" height="108" as="geometry" />
@@ -226,86 +223,6 @@
         </mxCell>
         <mxCell id="Ruzmpmge77XhKSY6amry-14" value="L&#39;utilisateur peut ajouter une adresse avant de créer une commande" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="8.5" y="440" width="110" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="890" width="1370" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="575.5" y="1000" width="10" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="351.5" y="990" width="10" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="814.5" y="1010" width="10" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-4" value="reprendre commande" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="LJaY1uWrWJZPDUCLlkqx-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="130" y="990.0000000000002" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-5" value="return reprendre commande" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="LJaY1uWrWJZPDUCLlkqx-3" edge="1">
-          <mxGeometry x="-0.0068" y="-12" relative="1" as="geometry">
-            <mxPoint x="130" y="1132.5" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-7" value="selected user(id)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="LJaY1uWrWJZPDUCLlkqx-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="357.5" y="1000" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-8" value="return commande" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="LJaY1uWrWJZPDUCLlkqx-6" edge="1">
-          <mxGeometry x="-0.1376" y="-3" relative="1" as="geometry">
-            <mxPoint x="357.5" y="1123.5" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-11" value="selected addresses(id)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="LJaY1uWrWJZPDUCLlkqx-6" target="LJaY1uWrWJZPDUCLlkqx-10" edge="1">
-          <mxGeometry x="0.1004" relative="1" as="geometry">
-            <mxPoint x="711.5" y="1010" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-12" value="return commande" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="LJaY1uWrWJZPDUCLlkqx-10" target="LJaY1uWrWJZPDUCLlkqx-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="744.5" y="1086" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-13" value=":commande" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="951.5" y="958" width="100" height="242" as="geometry" />
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=default;" parent="LJaY1uWrWJZPDUCLlkqx-13" vertex="1">
-          <mxGeometry x="45" y="62" width="10" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=default;" parent="LJaY1uWrWJZPDUCLlkqx-13" vertex="1">
-          <mxGeometry x="45" y="100" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-22" value="check commands (&#39;non terminé&#39;,id)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="LJaY1uWrWJZPDUCLlkqx-13" target="LJaY1uWrWJZPDUCLlkqx-21" edge="1">
-          <mxGeometry x="0.6" y="12" relative="1" as="geometry">
-            <mxPoint x="50" y="80" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="80" y="80" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-15" value="is there command (id)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="LJaY1uWrWJZPDUCLlkqx-14" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="1020" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-24" value="return commande" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.1;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="LJaY1uWrWJZPDUCLlkqx-21" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="961.5" y="1100" as="sourcePoint" />
-            <mxPoint x="820" y="1096" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-27" value="Nouvelle commande" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-30" y="260" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LJaY1uWrWJZPDUCLlkqx-28" value="Reprendre commande" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-20" y="920" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0sNWF5RZV0LR-bWS1yVA-2" value="commande bien créer" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.95;entryY=0.87;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0sNWF5RZV0LR-bWS1yVA-1" edge="1" target="1QbY8b8L3oi4g8jn2y3C-7">
           <mxGeometry x="-0.0256" y="-20" width="50" height="50" relative="1" as="geometry">
@@ -406,9 +323,6 @@
         </mxCell>
         <mxCell id="J0B3L8QebHQKtK_LHZ3j-38" value="tant que l&#39;utilisateur ajoute des plats" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="20" y="260" width="120" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="VZNBcjRek-mrgTSaG2wJ-1" value="PEUT etre trop détailler au niveau des modification de commande" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="25" y="735" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
