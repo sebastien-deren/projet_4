@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-26T17:39:56.146Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Us6m4-Nst93BJ6xRS2OB" version="20.7.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-12-27T15:15:31.341Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="aIJ1_Ulqh3x6D2W8tb5p" version="20.7.4" type="github" pages="4">
   <diagram id="i2iANbK01hYDNkAA648U" name="Main Use case">
     <mxGraphModel dx="2074" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,9 +56,6 @@
             <mxPoint x="490" y="675" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B1BhM5AODhmCGD2LpbQk-1" value="&lt;h1&gt;Créer une commande&lt;/h1&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;Un utilisateur va se connecter.&lt;/p&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;Il va choisir des plats parmi ceux créer par les chefs,&lt;/p&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;Il pourra ensuite valider sa commande, ce qui entrainera une validation de paiement par la banque.&lt;/p&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;Une fois la commande valider un livreur sera assigner a celle ci,&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="850" width="790" height="300" as="geometry" />
-        </mxCell>
         <mxCell id="B1BhM5AODhmCGD2LpbQk-2" value="Livreur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="730" y="440" width="30" height="60" as="geometry" />
         </mxCell>
@@ -102,8 +99,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9IMNQCcDOZ_F4U7MbICs-1" value="Il s&#39;agit ici d&#39;un use case représentant quasiment l&#39;intégralité du processus client.&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="30" width="260" height="100" as="geometry" />
+        <mxCell id="Zj38T6z4LHw6pQWL28sA-1" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=none;html=1;rounded=0;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="WPbAcu-Nf7KmGmuH2XIX-14" target="dlfMZQF5xn7IMmqw2VlK-4">
+          <mxGeometry x="-0.1298" y="-1" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="252.24412889553423" y="550.0179907460843" as="sourcePoint" />
+            <mxPoint x="267.6679618837129" y="319.9805717443087" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -114,10 +115,12 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pweK3UDJ_hugtWgN-rMh-1" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="60" y="300" width="30" height="60" as="geometry" />
+          <mxGeometry x="70" y="320" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pweK3UDJ_hugtWgN-rMh-2" value="expressFood" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="40" width="490" height="760" as="geometry" />
+          <mxGeometry x="160" y="40" width="490" height="580" as="geometry">
+            <mxRectangle x="160" y="40" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pweK3UDJ_hugtWgN-rMh-3" value="se connecter" style="ellipse;whiteSpace=wrap;html=1;" parent="pweK3UDJ_hugtWgN-rMh-2" vertex="1">
           <mxGeometry x="50" y="80" width="140" height="70" as="geometry" />
@@ -162,6 +165,9 @@
             <mxPoint x="120" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="blRlTUcuWq84NpqGagan-1" value="Créer une commande" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" width="340" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -171,18 +177,15 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="M16fj-CEml5ffAeNcaUB-1" value="express food" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="70" width="520" height="650" as="geometry" />
-        </mxCell>
-        <mxCell id="M16fj-CEml5ffAeNcaUB-2" value="AJOUT D&#39;UN PLAT DU JOUR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="60" y="15" width="180" height="30" as="geometry" />
+          <mxGeometry x="180" y="70" width="520" height="510" as="geometry" />
         </mxCell>
         <mxCell id="M16fj-CEml5ffAeNcaUB-3" value="Lister les plats du jour dans la commande" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="360" y="80" width="140" height="70" as="geometry" />
+          <mxGeometry x="340" y="80" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="M16fj-CEml5ffAeNcaUB-4" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="290" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M16fj-CEml5ffAeNcaUB-5" value="lister les plat du jour" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="M16fj-CEml5ffAeNcaUB-5" value="Lister les plat du jour" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="220" y="220" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="M16fj-CEml5ffAeNcaUB-6" value="" style="endArrow=none;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="1" source="M16fj-CEml5ffAeNcaUB-5" target="M16fj-CEml5ffAeNcaUB-4" edge="1">
@@ -213,7 +216,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="M16fj-CEml5ffAeNcaUB-15" value="Filtrer les plats du jour disponibles" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="530" y="220" width="140" height="70" as="geometry" />
+          <mxGeometry x="520" y="210" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="M16fj-CEml5ffAeNcaUB-16" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" parent="1" source="M16fj-CEml5ffAeNcaUB-5" target="M16fj-CEml5ffAeNcaUB-15" edge="1">
           <mxGeometry x="-0.0627" y="10" width="50" height="50" relative="1" as="geometry">
@@ -222,25 +225,25 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M16fj-CEml5ffAeNcaUB-17" value="&lt;h1 style=&quot;font-size: 17px;&quot;&gt;Ajout d&#39;un plat du jour&lt;/h1&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;Le client ajoute à sa commande un certain nombre d&#39;un plat du jour, puis il confirme l&#39;ajout.&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;Il peut modifier la quantité de plat du jour, dans son panier.&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;Le client peut voir tout les plats du jour qui ont été disponible , les plat du jour disponible seront mis en valeur, il pourra éventuellement voir les plats du jour qu&#39;il a déjà commander.&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="110" y="780" width="800" height="280" as="geometry" />
+        <mxCell id="pWrokqa3uOGOOEeKD7bU-3" value="Créer une commande&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="525" y="380" width="145" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pWrokqa3uOGOOEeKD7bU-3" value="se connecter" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="530" y="374" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iJVW2OmTgYiEDKoe55yX-1" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" edge="1" parent="1" source="M16fj-CEml5ffAeNcaUB-5" target="pWrokqa3uOGOOEeKD7bU-3">
+        <mxCell id="iJVW2OmTgYiEDKoe55yX-1" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" parent="1" source="M16fj-CEml5ffAeNcaUB-5" target="pWrokqa3uOGOOEeKD7bU-3" edge="1">
           <mxGeometry x="-0.0627" y="10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="368.1048251831571" y="273.08907885317194" as="sourcePoint" />
             <mxPoint x="561.9704926017889" y="296.7539991032472" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iJVW2OmTgYiEDKoe55yX-2" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" edge="1" parent="1" source="M16fj-CEml5ffAeNcaUB-9" target="pWrokqa3uOGOOEeKD7bU-3">
+        <mxCell id="iJVW2OmTgYiEDKoe55yX-2" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" parent="1" source="M16fj-CEml5ffAeNcaUB-9" target="pWrokqa3uOGOOEeKD7bU-3" edge="1">
           <mxGeometry x="-0.0627" y="10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="378.1048251831571" y="283.08907885317194" as="sourcePoint" />
             <mxPoint x="571.9704926017889" y="306.7539991032472" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Aljpsmn6d8F5tdVl6rZc-1" value="Ajout d&#39;un plat du jour" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="400" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -250,8 +253,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LnqLCXmZ8k50j1TZeZXA-1" value="Food Express" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="230" y="50" width="720" height="561" as="geometry" />
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-1" value="Food Express" style="swimlane;whiteSpace=wrap;html=1;direction=east;" parent="1" vertex="1">
+          <mxGeometry x="240" y="60" width="720" height="610" as="geometry" />
         </mxCell>
         <mxCell id="LnqLCXmZ8k50j1TZeZXA-2" value="Valider la commande" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" parent="LnqLCXmZ8k50j1TZeZXA-1" vertex="1">
           <mxGeometry x="180" y="80" width="140" height="70" as="geometry" />
@@ -260,7 +263,7 @@
           <mxGeometry x="180" y="236" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="LnqLCXmZ8k50j1TZeZXA-4" value="Valider la livraison" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" parent="LnqLCXmZ8k50j1TZeZXA-1" vertex="1">
-          <mxGeometry x="180" y="446" width="140" height="70" as="geometry" />
+          <mxGeometry x="50" y="516" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="LnqLCXmZ8k50j1TZeZXA-5" value="Vérifier le paiement" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" parent="LnqLCXmZ8k50j1TZeZXA-1" vertex="1">
           <mxGeometry x="530" y="50" width="140" height="70" as="geometry" />
@@ -292,7 +295,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LnqLCXmZ8k50j1TZeZXA-11" value="notifier d&#39;une livraison non conforme" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" parent="LnqLCXmZ8k50j1TZeZXA-1" vertex="1">
-          <mxGeometry x="540" y="446" width="140" height="70" as="geometry" />
+          <mxGeometry x="290" y="350" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="LnqLCXmZ8k50j1TZeZXA-12" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=17;" parent="LnqLCXmZ8k50j1TZeZXA-1" source="LnqLCXmZ8k50j1TZeZXA-11" target="LnqLCXmZ8k50j1TZeZXA-4" edge="1">
           <mxGeometry x="0.04" y="16" width="50" height="50" relative="1" as="geometry">
@@ -301,29 +304,39 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LjZCZtuHNqRf8vAfNCQy-2" value="se connecter" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="LnqLCXmZ8k50j1TZeZXA-1">
+        <mxCell id="LjZCZtuHNqRf8vAfNCQy-2" value="Créer une commande" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" parent="LnqLCXmZ8k50j1TZeZXA-1" vertex="1">
           <mxGeometry x="10" y="320" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="LjZCZtuHNqRf8vAfNCQy-3" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;fontSize=17;dashed=1;" edge="1" parent="LnqLCXmZ8k50j1TZeZXA-1" source="LnqLCXmZ8k50j1TZeZXA-2" target="LjZCZtuHNqRf8vAfNCQy-2">
+        <mxCell id="LjZCZtuHNqRf8vAfNCQy-3" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;fontSize=17;dashed=1;" parent="LnqLCXmZ8k50j1TZeZXA-1" source="LnqLCXmZ8k50j1TZeZXA-2" target="LjZCZtuHNqRf8vAfNCQy-2" edge="1">
           <mxGeometry x="0.3325" y="-25" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="20" y="420" as="sourcePoint" />
             <mxPoint x="170" y="420" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LjZCZtuHNqRf8vAfNCQy-5" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;fontSize=17;dashed=1;exitX=0.457;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LnqLCXmZ8k50j1TZeZXA-1" source="LnqLCXmZ8k50j1TZeZXA-3" target="LjZCZtuHNqRf8vAfNCQy-2">
+        <mxCell id="LjZCZtuHNqRf8vAfNCQy-5" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;fontSize=17;dashed=1;exitX=0.457;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="LnqLCXmZ8k50j1TZeZXA-1" source="LnqLCXmZ8k50j1TZeZXA-3" target="LjZCZtuHNqRf8vAfNCQy-2" edge="1">
           <mxGeometry x="-0.2734" y="13" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="390" as="sourcePoint" />
             <mxPoint x="430" y="390" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LjZCZtuHNqRf8vAfNCQy-4" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;fontSize=17;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="LnqLCXmZ8k50j1TZeZXA-1" source="LnqLCXmZ8k50j1TZeZXA-4" target="LjZCZtuHNqRf8vAfNCQy-2">
+        <mxCell id="LjZCZtuHNqRf8vAfNCQy-4" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;fontSize=17;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="LnqLCXmZ8k50j1TZeZXA-1" source="LnqLCXmZ8k50j1TZeZXA-4" target="LjZCZtuHNqRf8vAfNCQy-2" edge="1">
           <mxGeometry x="0.0231" y="5" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="450" as="sourcePoint" />
             <mxPoint x="240" y="530" as="targetPoint" />
             <mxPoint as="offset" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0ggclLJbYUZgPSvkexS-2" value="Livrer la commande" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="LnqLCXmZ8k50j1TZeZXA-1">
+          <mxGeometry x="460" y="490" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q0ggclLJbYUZgPSvkexS-4" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;fontSize=17;dashed=1;" edge="1" parent="LnqLCXmZ8k50j1TZeZXA-1" source="q0ggclLJbYUZgPSvkexS-2" target="LnqLCXmZ8k50j1TZeZXA-4">
+          <mxGeometry x="-0.0609" y="2" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245.82822339763118" y="525.0020490032521" as="sourcePoint" />
+            <mxPoint x="460.0029055231322" y="552.0356224086222" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LnqLCXmZ8k50j1TZeZXA-13" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
@@ -341,20 +354,18 @@
             <mxPoint x="270" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LnqLCXmZ8k50j1TZeZXA-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="LnqLCXmZ8k50j1TZeZXA-4" edge="1">
+        <mxCell id="LnqLCXmZ8k50j1TZeZXA-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" parent="1" edge="1" source="LnqLCXmZ8k50j1TZeZXA-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="340" as="sourcePoint" />
-            <mxPoint x="230" y="470" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="270" y="450" />
-            </Array>
+            <mxPoint x="160" y="530" as="sourcePoint" />
+            <mxPoint x="150" y="340" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LnqLCXmZ8k50j1TZeZXA-17" value="Bank" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="990" y="80" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LnqLCXmZ8k50j1TZeZXA-18" value="Livreur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="980" y="210" width="30" height="60" as="geometry" />
+          <mxGeometry x="990" y="340" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LnqLCXmZ8k50j1TZeZXA-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LnqLCXmZ8k50j1TZeZXA-5" target="LnqLCXmZ8k50j1TZeZXA-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -374,8 +385,14 @@
             <mxPoint x="980" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LnqLCXmZ8k50j1TZeZXA-22" value="&lt;h1&gt;Livraison de commande&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Lorsqu&#39;une commande est commander un livreur est désigner pour la livrer.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Le livreur recevra le contenu de la commande ainsi que l&#39;adresse du client.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Une fois arrivé a destination le livreur donnera la commande au client et validera la bonne remise de la commande.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Le client pourra prévenir food express si il a eu le moindre problème lors de la livraison de la commande.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="670" width="1090" height="360" as="geometry" />
+        <mxCell id="YOH_G2RgX_PyZ7Hr7mMe-1" value="Livraison de commande" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="10" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q0ggclLJbYUZgPSvkexS-3" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" edge="1" parent="1" target="q0ggclLJbYUZgPSvkexS-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="360" as="sourcePoint" />
+            <mxPoint x="1200" y="530" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
