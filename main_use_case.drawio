@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-29T08:57:52.344Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="JmWDcgeoYWDn94MXFpvH" version="20.7.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-12-29T10:30:24.729Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="fo9yyGxg5x0eU4WVaQyx" version="20.7.4" type="github" pages="4">
   <diagram id="i2iANbK01hYDNkAA648U" name="Main Use case">
     <mxGraphModel dx="2074" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -227,13 +227,6 @@
         </mxCell>
         <mxCell id="pWrokqa3uOGOOEeKD7bU-3" value="Créer une commande&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="525" y="380" width="145" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iJVW2OmTgYiEDKoe55yX-1" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" parent="1" source="M16fj-CEml5ffAeNcaUB-5" target="pWrokqa3uOGOOEeKD7bU-3" edge="1">
-          <mxGeometry x="-0.0627" y="10" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="368.1048251831571" y="273.08907885317194" as="sourcePoint" />
-            <mxPoint x="561.9704926017889" y="296.7539991032472" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="iJVW2OmTgYiEDKoe55yX-2" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" parent="1" source="M16fj-CEml5ffAeNcaUB-9" target="pWrokqa3uOGOOEeKD7bU-3" edge="1">
           <mxGeometry x="-0.0627" y="10" width="50" height="50" relative="1" as="geometry">
