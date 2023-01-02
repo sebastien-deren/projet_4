@@ -1,13 +1,14 @@
 SELECT User.name AS 'nom du client' FROM User JOIN Client ON User.id_user =Client.id_client; 
 SELECT User.name AS 'nom du chef', Chef.specialty AS 'spécialité' FROM User JOIN Chef ON User.id_user =Chef.id_chef;
-SELECT User.name AS 'nom du livreur'FROM User JOIN Deliverer ON User.id_user = Deliverer.id_deliverer;
+SELECT User.name AS 'nom du livreur',Deliverer.status FROM User JOIN Deliverer ON User.id_user = Deliverer.id_deliverer;
 
 
 SELECT 
-    U.username,
+    U.name,
+    C.specialty,
     D.name,
-    D.type,
-    C.specialty
+    D.type
+ 
 FROM
     DishOfTheDay AS D,
     User AS U,
@@ -19,7 +20,7 @@ AND
 
 
 SELECT
-    U.username,
+    U.name,
     GroupAddress.addresse AS `nombre d'adresse`
 FROM
     User AS U,
@@ -36,25 +37,7 @@ FROM
 WHERE GroupAddress.id_client=U.id_user;
 
 
-SELECT 
-    D.name AS 'nom de plat',
-    D.type,C.commandDate AS 'Date de Commande',
-    Assoc.number AS 'nombre de plat commandé',
-    D.id_chef,
-    C.id_deliverer,
-    C.id_address
-FROM 
-    DishOfTheDay AS D,
-    Command AS C,
-    ASSOC_Command_Dish AS Assoc
 
-WHERE
-    D.id_dishOfTheDay = Assoc.id_dish 
-AND 
-    C.id_command = Assoc.id_command 
-AND 
-    D.day = C.commandDate
-ORDER BY C.id_command;
 
 
 /* Montre la commande par qui elle a été livré pour qui et à quelle adresse*/
@@ -100,29 +83,50 @@ ORDER BY C.id_command;
 
 
 
-
+/*plat présent dans la commande  avec type et nombre*/
 SELECT 
+    C.id_command,
     D.name AS 'nom de plat',
     D.type,C.commandDate AS 'Date de Commande',
-    Assoc.number AS 'nombre de plat commandé',
-    D.id_chef,
-    C.id_deliverer,
-    JOIN_client.name AS `nom du client`   
+    Assoc.number AS 'nombre de plat commandé'
+
 FROM 
     DishOfTheDay AS D,
-    Command AS C
+    Command AS C,
     ASSOC_Command_Dish AS Assoc
-    (SELECT
+
+WHERE
+    D.id_dishOfTheDay = Assoc.id_dish 
+AND 
+    C.id_command = Assoc.id_command 
+AND 
+    D.day = C.commandDate
+ORDER BY C.id_command;
+
+
+
+/*pareil qu'avant avec le nom du client*/
+
+SELECT 
+    C.id_command,
+    JOIN_client.name AS `nom du client`,
+    D.name AS 'nom de plat',
+    D.type,C.commandDate AS 'Date de Commande',
+    Assoc.number AS 'nombre de plat commandé'
+      
+FROM 
+    DishOfTheDay AS D,
+    Command AS C,
+    ASSOC_Command_Dish AS Assoc,
+    (
+    SELECT
         U.name name,
         A.id_address id_address
     FROM
-    Client as C,
     Address as A,
     User as U
     WHERE
-        C.id_client = A.id_client
-    AND
-        U.id_user = C.id_client
+        U.id_user = A.id_client
     )  JOIN_client
 
 WHERE
@@ -135,12 +139,17 @@ AND
     C.id_address = JOIN_client.id_address
 ORDER BY C.id_command;
 
+
+
+
+
+
 /* this one is a monstruosity BUT it work and show all the dish in all commands with their number,
 the name of the deliverer, the name of the chef and the name of the client.
 I could easily add the adress but maybe that's enough
 */
 SELECT 
-    C.id_command,
+    C.id_command AS `numéro de commande`,
     D.name AS 'nom de plat',
     D.type,C.commandDate AS 'Date de Commande',
     Assoc.number AS `nombre de plat commandé`,
@@ -200,15 +209,17 @@ ORDER BY C.id_command;
 /*FINAL FORM WITH THE ADRESS*/
 SELECT 
     C.id_command,
-    D.name AS 'nom de plat',
-    D.type,C.commandDate AS 'Date de Commande',
+    C.commandDate AS 'Date de Commande',
+    JOIN_client.name AS `nom du client`,
+    D.name AS 'nom de plat', 
     Assoc.number AS `nombre de plat commandé`,
     JOIN_chef.name AS `nom du chef`,
+    D.type AS `type de plat`,
     JOIN_deliverer.name AS `nom du livreur`,
-    JOIN_client.name AS `nom du client`,
-    JOIN_client.number,
-    JOIN_client.street,
-    JOIN_client.town  
+    JOIN_client.number AS `numéro de rue`,
+    JOIN_client.street AS `rue`,
+    JOIN_client.town  AS `Ville`
+    
 FROM 
     DishOfTheDay AS D,
     Command AS C,

@@ -9,7 +9,8 @@ VALUES (1,'coucou', 'francis', 'franck'),
 
 INSERT INTO Client(`id_client`,`bankinfo`)
 VALUES (1,NULL),
-(2,NULL);
+(2,NULL),
+(3,NULL);
 
 INSERT INTO Deliverer(`id_deliverer`,`status`)
 VALUES
@@ -30,16 +31,16 @@ VALUES
 
 INSERT INTO DishOfTheDay(`id_dishOfTheDay`,`id_chef`,`name`,`type`,`day`)
 VALUES
-(1,6,'boeuf bourguignon','plat','12/12/2022'),
-(2,6,'gratin dauphinois','plat','12/12/2022'),
-(3,7,'tarte yuzu meringué','dessert','12/12/2022'),
-(4,7,'paris-tokyo','dessert','12/12/2022');
+(1,6,'boeuf bourguignon','plat','2022-12-12'),
+(2,6,'gratin dauphinois','plat','2022-12-12'),
+(3,7,'tarte yuzu meringué','dessert','2022-12-12'),
+(4,7,'paris-tokyo','dessert','2022-12-12');
 
 INSERT INTO Command (`id_command`,`id_deliverer`,`id_address`,`commandDate`,`status`,`timeOfArrival`)
 VALUES
-(1,4,3,'12/12/2022','livré',NULL),
-(2,5,4,'12/12/2022','en cours',4),
-(3,5,5,'12/12/2022','livré',NULL);
+(1,4,3,'2022-12-12','livré',NULL),
+(2,5,4,'2022-12-12','en cours',NULL),
+(3,5,5,'2022-12-12','livré',NULL);
 
 INSERT INTO ASSOC_Command_Dish (`id_command`,`id_dish`,`number`)
 VALUES

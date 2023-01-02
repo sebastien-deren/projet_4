@@ -103,11 +103,13 @@ CREATE TABLE IF NOT EXISTS DishOfTheDay(
     `id_dishOfTheDay` INTEGER,
     `id_chef` INTEGER,
     `name` TEXT,
-    `type` TEXT, -- salted dish, or dessert we might add other dishes later
-    `day` DATE, --here we will need a format Of YYYY:MM:DD the precision will be sufficient
+     -- salted dish, or dessert we might add other dishes later
+    `type` TEXT, 
+       --here we will need a format Of YYYY:MM:DD the precision will be sufficient
+    `day` DATE, 
     `price` INTEGER,
-    PRIMARY KEY (`id_dishOfTheDay`),
     /* here our natural primary key could have been (name,day) but for clarity we will use an artificial key*/
+    PRIMARY KEY (`id_dishOfTheDay`),
     CONSTRAINT `FK_id_chef` FOREIGN KEY (`id_chef`) REFERENCES `Chef`(`id_chef`)
 );
 INSERT INTO DishOfTheDay (id_dishOfTheDay, id_chef, name, type, day, price) VALUES (1, 6, 'boeuf bourguignon', 'plat', '12/12/2022', NULL);
